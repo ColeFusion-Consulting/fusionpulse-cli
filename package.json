@@ -1,0 +1,41 @@
+{
+  "name": "@fusionpulse/cli",
+  "version": "0.1.0",
+  "description": "Generate and run Playwright E2E tests from plain English descriptions. Free OSS CLI from FusionPulse.",
+  "type": "module",
+  "bin": {
+    "fusionpulse": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e",
+    "ai",
+    "test-generation"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ColeFusion-Consulting/fusionpulse-cli"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.86.0",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ]
+}
