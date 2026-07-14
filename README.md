@@ -18,4 +18,4 @@ fusionpulse record
 fusionpulse init
 ```
 
-[Learn more at fusionpulse.colefusion.net](https://fusionpulse.colefusion.net)
+[Learn more at fusionpulse.colefusion.com](https://fusionpulse.colefusion.com)
